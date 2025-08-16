@@ -1,0 +1,44 @@
+{
+  "target_column": "diagnosis",
+  "y_mapping": {
+    "0": "B",
+    "1": "M"
+  },
+  "linear": {
+    "best_params": {
+      "svm__C": 1
+    },
+    "cv_best_score": 0.973626118275822,
+    "test_accuracy": 0.9649122807017544,
+    "confusion_matrix": [
+      [
+        72,
+        0
+      ],
+      [
+        4,
+        38
+      ]
+    ],
+    "roc_auc": 0.9914021164021164
+  },
+  "rbf": {
+    "best_params": {
+      "svm__C": 10,
+      "svm__gamma": "scale"
+    },
+    "cv_best_score": 0.9626612059951203,
+    "test_accuracy": 0.9736842105263158,
+    "confusion_matrix": [
+      [
+        72,
+        0
+      ],
+      [
+        3,
+        39
+      ]
+    ],
+    "roc_auc": 0.9927248677248677
+  }
+}

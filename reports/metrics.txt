@@ -1,0 +1,13 @@
+=== Linear SVM ===
+Best params: {'svm__C': 1}
+CV best score (acc): 0.9736
+Test accuracy: 0.9649
+ROC-AUC: 0.9914
+Confusion matrix: [[72, 0], [4, 38]]
+
+=== RBF SVM ===
+Best params: {'svm__C': 10, 'svm__gamma': 'scale'}
+CV best score (acc): 0.9627
+Test accuracy: 0.9737
+ROC-AUC: 0.9927
+Confusion matrix: [[72, 0], [3, 39]]
