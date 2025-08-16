@@ -22,7 +22,6 @@
 ### 📷 Screenshots
 (Include decision boundary plots here)
 
-### 📝 Interview Q&A
-(Added in the notebook for quick revision)
+
 
 ---
