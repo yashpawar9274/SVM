@@ -20,7 +20,12 @@
 - Cross-validation Accuracy: ~97%
 
 ### 📷 Screenshots
-(Include decision boundary plots here)
+
+Linear SVM Decision Boundary  
+![Linear SVM](figures/decision_boundary_pca.png)
+
+RBF Kernel Decision Boundary  
+![RBF SVM](figures/roc_curve.png)
 
 
 
